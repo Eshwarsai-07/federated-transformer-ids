@@ -1,0 +1,12 @@
+{
+    "threshold_selection": "Validation set maximum F1",
+    "selected_threshold": 65.40403505922264,
+    "validation_precision": 0.90813237289905,
+    "validation_recall": 0.9899852054170935,
+    "validation_f1": 0.9472939126147994,
+    "test_precision": 0.9164387187858466,
+    "test_recall": 0.8135672881090397,
+    "test_f1": 0.8619444790240259,
+    "test_false_positive_rate": 0.0975182782411698,
+    "u2r_detection_rate": 0.7226890756302521
+}

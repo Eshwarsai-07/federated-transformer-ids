@@ -1,0 +1,10 @@
+{
+    "total_test_samples": 22477,
+    "misclassified_samples": 4220,
+    "overall_error_rate": 0.1877474751968679,
+    "uncertain_samples": 2363,
+    "uncertain_error_rate": 0.5696148963182395,
+    "confident_samples": 20114,
+    "confident_error_rate": 0.1428855523515959,
+    "uncertainty_error_detection_auroc": 0.8323944175667736
+}

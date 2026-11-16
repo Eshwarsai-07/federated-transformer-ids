@@ -1,0 +1,14 @@
+{
+    "known_attacks_vs_normal": {
+        "attack_probability": 0.9339500512000317,
+        "anomaly_score": 0.8918424554861891,
+        "uncertainty": 0.41080398351783753,
+        "combined_risk": 0.9019154747189871
+    },
+    "held_out_u2r_vs_normal": {
+        "attack_probability": 0.903849831560675,
+        "anomaly_score": 0.9405754887682598,
+        "uncertainty": 0.8807286893750395,
+        "combined_risk": 0.9316819097116757
+    }
+}

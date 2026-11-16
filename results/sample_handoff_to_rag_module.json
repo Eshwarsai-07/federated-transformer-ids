@@ -1,0 +1,76 @@
+{
+    "known_traffic_samples": [
+        {
+            "final_classification": "Known Attack",
+            "attack_category": "DoS",
+            "risk_score": 0.6586,
+            "classifier_confidence": 0.9789,
+            "anomaly_score": 1.6239
+        },
+        {
+            "final_classification": "Known Attack",
+            "attack_category": "DoS",
+            "risk_score": 0.6895,
+            "classifier_confidence": 0.9674,
+            "anomaly_score": 1.7
+        },
+        {
+            "final_classification": "Known Attack",
+            "attack_category": "R2L",
+            "risk_score": 0.5544,
+            "classifier_confidence": 0.5847,
+            "anomaly_score": 1.5988
+        },
+        {
+            "final_classification": "Known Attack",
+            "attack_category": "Probe",
+            "risk_score": 0.7244,
+            "classifier_confidence": 0.9282,
+            "anomaly_score": 2.2565
+        },
+        {
+            "final_classification": "Known Attack",
+            "attack_category": "Probe",
+            "risk_score": 0.5342,
+            "classifier_confidence": 0.5809,
+            "anomaly_score": 1.1359
+        }
+    ],
+    "zeroday_u2r_samples": [
+        {
+            "final_classification": "Known Attack",
+            "attack_category": "R2L",
+            "risk_score": 0.6385,
+            "classifier_confidence": 0.5736,
+            "anomaly_score": 2.0216
+        },
+        {
+            "final_classification": "Known Attack",
+            "attack_category": "R2L",
+            "risk_score": 0.6608,
+            "classifier_confidence": 0.6999,
+            "anomaly_score": 2.1323
+        },
+        {
+            "final_classification": "Known Attack",
+            "attack_category": "R2L",
+            "risk_score": 0.6584,
+            "classifier_confidence": 0.6867,
+            "anomaly_score": 2.1548
+        },
+        {
+            "final_classification": "Known Attack",
+            "attack_category": "R2L",
+            "risk_score": 0.7707,
+            "classifier_confidence": 0.7828,
+            "anomaly_score": 2.6746
+        },
+        {
+            "final_classification": "Benign",
+            "attack_category": "Normal",
+            "risk_score": 0.5638,
+            "classifier_confidence": 0.5147,
+            "anomaly_score": 1.8549
+        }
+    ]
+}

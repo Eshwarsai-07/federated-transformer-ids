@@ -1,0 +1,95 @@
+{
+    "experiment": "Client-Level DP Federated Transformer",
+    "architecture": "DualHeadRiskTransformer",
+    "num_clients": 5,
+    "client_participation_rate": 1.0,
+    "communication_rounds": 12,
+    "local_epochs": 2,
+    "aggregation": "Equal-weight average of clipped client updates",
+    "adjacency": "Replace-one-client",
+    "clip_norm": 1.0,
+    "noise_multiplier": 2.0,
+    "noise_std_on_aggregate": 0.8,
+    "sensitivity_bound": 0.4,
+    "fedprox_mu": 0.005,
+    "privacy_accountant": "Gaussian RDP composition",
+    "privacy": {
+        "epsilon": 9.837641821656742,
+        "delta": 1e-05,
+        "best_order": 4.0,
+        "rdp_at_best_order": 6.0
+    },
+    "test_accuracy": 0.43204164256795835,
+    "macro_f1": 0.1508481421647819,
+    "zeroday_u2r_auroc": 0.43597058879609146,
+    "round_history": [
+        {
+            "round": 1,
+            "mean_raw_client_update_norm": 2.891301918029785,
+            "max_raw_client_update_norm": 3.153120279312134
+        },
+        {
+            "round": 2,
+            "mean_raw_client_update_norm": 12.955782985687256,
+            "max_raw_client_update_norm": 18.100587844848633
+        },
+        {
+            "round": 3,
+            "mean_raw_client_update_norm": 15.528533363342286,
+            "max_raw_client_update_norm": 22.38327407836914
+        },
+        {
+            "round": 4,
+            "mean_raw_client_update_norm": 17.03474130630493,
+            "max_raw_client_update_norm": 24.827472686767578
+        },
+        {
+            "round": 5,
+            "mean_raw_client_update_norm": 18.22023296356201,
+            "max_raw_client_update_norm": 27.0550537109375
+        },
+        {
+            "round": 6,
+            "mean_raw_client_update_norm": 19.158842754364013,
+            "max_raw_client_update_norm": 28.95594024658203
+        },
+        {
+            "round": 7,
+            "mean_raw_client_update_norm": 20.115536499023438,
+            "max_raw_client_update_norm": 30.666126251220703
+        },
+        {
+            "round": 8,
+            "mean_raw_client_update_norm": 21.3580171585083,
+            "max_raw_client_update_norm": 33.17074203491211
+        },
+        {
+            "round": 9,
+            "mean_raw_client_update_norm": 23.391822052001952,
+            "max_raw_client_update_norm": 36.40995788574219
+        },
+        {
+            "round": 10,
+            "mean_raw_client_update_norm": 22.876071643829345,
+            "max_raw_client_update_norm": 36.12022399902344
+        },
+        {
+            "round": 11,
+            "mean_raw_client_update_norm": 22.516883850097656,
+            "max_raw_client_update_norm": 35.76280212402344
+        },
+        {
+            "round": 12,
+            "mean_raw_client_update_norm": 23.56376838684082,
+            "max_raw_client_update_norm": 37.53871154785156
+        }
+    ],
+    "checkpoint": "/content/drive/MyDrive/IDS_Major_Project/checkpoints/dual_head_federated_transformer_client_dp.pt",
+    "limitations": [
+        "All five clients participate in every round; no subsampling amplification.",
+        "Privacy guarantee is client-level, not individual-record-level.",
+        "Client partitions are simulated from centrally preprocessed and SMOTE-resampled data.",
+        "The normal_center buffer remains zero and is not calibrated from private validation data.",
+        "The guarantee assumes a trusted aggregation server and fixed client weights."
+    ]
+}

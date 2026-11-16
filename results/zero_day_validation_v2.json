@@ -1,0 +1,12 @@
+{
+    "experiment": "Dual-head Federated Transformer OOD Validation",
+    "checkpoint": "dual_head_federated_transformer.pt",
+    "normal_center_norm": 7.307977676391602,
+    "threshold_method": "95th percentile of validation Normal anomaly scores",
+    "threshold": 2.2529196739196777,
+    "ood_auroc": 0.7849716030915637,
+    "known_test_false_positive_rate": 0.15317880500066736,
+    "u2r_detection_rate": 0.4789915966386555,
+    "known_test_samples": 22477,
+    "u2r_samples": 119
+}

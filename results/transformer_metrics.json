@@ -1,0 +1,17 @@
+{
+    "model": "RiskAware_FT_Transformer",
+    "accuracy": 0.7863,
+    "macro_precision": 0.8457,
+    "macro_recall": 0.6755,
+    "macro_f1": 0.6872,
+    "false_positive_rate": 0.0358,
+    "latency_ms_per_1k_flows": 51.696,
+    "per_class_recall": {
+        "Normal": 0.9642,
+        "DoS": 0.7969,
+        "Probe": 0.7522,
+        "R2L": 0.1886
+    },
+    "zeroday_ood_auroc": 0.6022,
+    "expected_calibration_error": 0.1729
+}

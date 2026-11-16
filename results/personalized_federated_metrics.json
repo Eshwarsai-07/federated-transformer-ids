@@ -1,0 +1,67 @@
+{
+    "experiment": "Personalized Federated Learning",
+    "method": "Global checkpoint initialization + client-local fine-tuning",
+    "num_clients": 5,
+    "dirichlet_alpha": 0.5,
+    "personal_epochs": 2,
+    "learning_rate": 0.0001,
+    "local_test_ratio": 0.2,
+    "seed": 42,
+    "results": {
+        "client_1": {
+            "train_samples": 7012,
+            "test_samples": 1753,
+            "global_accuracy": 0.9971477467199087,
+            "global_macro_f1": 0.914664715655411,
+            "personalized_accuracy": 0.9977181973759269,
+            "personalized_macro_f1": 0.8982142857142857,
+            "accuracy_improvement": 0.0005704506560182399,
+            "macro_f1_improvement": -0.016450429941125222,
+            "checkpoint": "/content/drive/MyDrive/IDS_Major_Project/checkpoints/personalized_client_1.pt"
+        },
+        "client_2": {
+            "train_samples": 12650,
+            "test_samples": 3163,
+            "global_accuracy": 0.9883022447043945,
+            "global_macro_f1": 0.731406926820094,
+            "personalized_accuracy": 0.9968384445147013,
+            "personalized_macro_f1": 0.9896210787337202,
+            "accuracy_improvement": 0.008536199810306733,
+            "macro_f1_improvement": 0.2582141519136262,
+            "checkpoint": "/content/drive/MyDrive/IDS_Major_Project/checkpoints/personalized_client_2.pt"
+        },
+        "client_3": {
+            "train_samples": 30128,
+            "test_samples": 7532,
+            "global_accuracy": 0.9540626659585767,
+            "global_macro_f1": 0.6989961699044174,
+            "personalized_accuracy": 0.9818109399893786,
+            "personalized_macro_f1": 0.7495400272410319,
+            "accuracy_improvement": 0.027748274030801934,
+            "macro_f1_improvement": 0.050543857336614484,
+            "checkpoint": "/content/drive/MyDrive/IDS_Major_Project/checkpoints/personalized_client_3.pt"
+        },
+        "client_4": {
+            "train_samples": 7964,
+            "test_samples": 1992,
+            "global_accuracy": 0.9899598393574297,
+            "global_macro_f1": 0.9607287566599801,
+            "personalized_accuracy": 0.9864457831325302,
+            "personalized_macro_f1": 0.9829616145373867,
+            "accuracy_improvement": -0.003514056224899531,
+            "macro_f1_improvement": 0.022232857877406587,
+            "checkpoint": "/content/drive/MyDrive/IDS_Major_Project/checkpoints/personalized_client_4.pt"
+        },
+        "client_5": {
+            "train_samples": 33593,
+            "test_samples": 8399,
+            "global_accuracy": 0.9796404333849268,
+            "global_macro_f1": 0.9667314925104064,
+            "personalized_accuracy": 0.979878556971068,
+            "personalized_macro_f1": 0.966135042097403,
+            "accuracy_improvement": 0.00023812358614117013,
+            "macro_f1_improvement": -0.0005964504130033799,
+            "checkpoint": "/content/drive/MyDrive/IDS_Major_Project/checkpoints/personalized_client_5.pt"
+        }
+    }
+}

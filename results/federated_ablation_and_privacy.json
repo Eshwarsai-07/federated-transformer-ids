@@ -1,0 +1,80 @@
+{
+    "results": [
+        {
+            "experiment": "1_Federated_IID",
+            "test_accuracy": 0.8199,
+            "macro_f1": 0.7572,
+            "zeroday_u2r_auroc": 0.7056,
+            "brier_score": 0.2823,
+            "client_acc_std_fairness": 0.0004
+        },
+        {
+            "experiment": "2_Federated_NonIID_FedProx",
+            "test_accuracy": 0.8116,
+            "macro_f1": 0.7438,
+            "zeroday_u2r_auroc": 0.785,
+            "brier_score": 0.3017,
+            "client_acc_std_fairness": 0.0206
+        },
+        {
+            "experiment": "3_Federated_NonIID_With_DP",
+            "test_accuracy": 0.7876,
+            "macro_f1": 0.7209,
+            "zeroday_u2r_auroc": 0.7011,
+            "brier_score": 0.3157,
+            "client_acc_std_fairness": 0.0122
+        }
+    ],
+    "sample_audit_logs": [
+        {
+            "event": "AUTH",
+            "client_id": 0,
+            "status": "VERIFIED"
+        },
+        {
+            "event": "AUTH",
+            "client_id": 1,
+            "status": "VERIFIED"
+        },
+        {
+            "event": "AUTH",
+            "client_id": 2,
+            "status": "VERIFIED"
+        },
+        {
+            "event": "AUTH",
+            "client_id": 3,
+            "status": "VERIFIED"
+        },
+        {
+            "event": "AUTH",
+            "client_id": 4,
+            "status": "VERIFIED"
+        },
+        {
+            "event": "AUTH",
+            "client_id": 0,
+            "status": "VERIFIED"
+        },
+        {
+            "event": "AUTH",
+            "client_id": 1,
+            "status": "VERIFIED"
+        },
+        {
+            "event": "AUTH",
+            "client_id": 2,
+            "status": "VERIFIED"
+        },
+        {
+            "event": "AUTH",
+            "client_id": 3,
+            "status": "VERIFIED"
+        },
+        {
+            "event": "AUTH",
+            "client_id": 4,
+            "status": "VERIFIED"
+        }
+    ]
+}

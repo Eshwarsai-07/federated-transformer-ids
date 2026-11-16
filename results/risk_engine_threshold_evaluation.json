@@ -1,0 +1,36 @@
+{
+    "known_attack_vs_normal_roc_auc": 0.9019154747189871,
+    "threshold_25": {
+        "true_positives": 12576,
+        "false_positives": 3891,
+        "true_negatives": 5820,
+        "false_negatives": 190,
+        "precision": 0.7637092366551285,
+        "recall": 0.9851167162776124,
+        "f1": 0.8603974959805699,
+        "false_positive_rate": 0.40067964164349706,
+        "u2r_detection_rate": 1.0
+    },
+    "threshold_50": {
+        "true_positives": 11129,
+        "false_positives": 1394,
+        "true_negatives": 8317,
+        "false_negatives": 1637,
+        "precision": 0.8886848199313263,
+        "recall": 0.8717687607707975,
+        "f1": 0.8801455178140694,
+        "false_positive_rate": 0.1435485531871074,
+        "u2r_detection_rate": 0.907563025210084
+    },
+    "threshold_75": {
+        "true_positives": 3629,
+        "false_positives": 713,
+        "true_negatives": 8998,
+        "false_negatives": 9137,
+        "precision": 0.8357899585444496,
+        "recall": 0.284270719097603,
+        "f1": 0.42424596679915827,
+        "false_positive_rate": 0.07342189269900114,
+        "u2r_detection_rate": 0.5378151260504201
+    }
+}

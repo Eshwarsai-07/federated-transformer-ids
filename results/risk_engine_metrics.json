@@ -1,0 +1,22 @@
+{
+    "method": "Preliminary weighted risk fusion",
+    "weights": {
+        "attack_probability": 0.4,
+        "anomaly_score": 0.35,
+        "uncertainty": 0.25
+    },
+    "test_samples": 22477,
+    "mean_risk_score": 50.79934740972892,
+    "median_risk_score": 65.84788190228096,
+    "risk_distribution": {
+        "CRITICAL": 4342,
+        "HIGH": 8181,
+        "LOW": 6010,
+        "MEDIUM": 3944
+    },
+    "mean_attack_probability": 0.5498449802398682,
+    "mean_normalized_anomaly": 0.5420963764190674,
+    "mean_normalized_uncertainty": 0.3932869991759997,
+    "ood_threshold": 2.25292,
+    "severity_policy": "Equal treatment of predicted attack classes; provisional risk bands"
+}

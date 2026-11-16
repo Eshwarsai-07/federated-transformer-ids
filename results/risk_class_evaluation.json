@@ -1,0 +1,56 @@
+{
+    "known_test_class_results": {
+        "Normal": {
+            "samples": 9711,
+            "mean_risk": 28.905456945649863,
+            "median_risk": 22.34216190353993,
+            "high_critical_rate": 0.1435485531871074,
+            "critical_rate": 0.07342189269900114,
+            "mean_attack_probability": 0.23439618945121765,
+            "mean_anomaly_score": 0.2632093131542206,
+            "mean_uncertainty": 0.41269128991500575
+        },
+        "DoS": {
+            "samples": 7460,
+            "mean_risk": 69.3261772156272,
+            "median_risk": 68.9194570661717,
+            "high_critical_rate": 0.9550938337801609,
+            "critical_rate": 0.16005361930294906,
+            "mean_attack_probability": 0.8717759251594543,
+            "mean_anomaly_score": 0.7452170848846436,
+            "mean_uncertainty": 0.33490161482590614
+        },
+        "Probe": {
+            "samples": 2421,
+            "mean_risk": 75.13526119479651,
+            "median_risk": 76.94168921769081,
+            "high_critical_rate": 0.9681949607600165,
+            "critical_rate": 0.8013217678645188,
+            "mean_attack_probability": 0.8556113243103027,
+            "mean_anomaly_score": 0.9212542176246643,
+            "mean_uncertainty": 0.3466764382295384
+        },
+        "R2L": {
+            "samples": 2885,
+            "mean_risk": 56.16647831822874,
+            "median_risk": 67.56039600153026,
+            "high_critical_rate": 0.5753899480069324,
+            "critical_rate": 0.17157712305025996,
+            "mean_attack_probability": 0.5226206183433533,
+            "mean_anomaly_score": 0.6374344825744629,
+            "mean_uncertainty": 0.5180579066063611
+        }
+    },
+    "held_out_u2r_results": {
+        "samples": 119,
+        "mean_risk": 71.36812378833872,
+        "median_risk": 75.13172640972188,
+        "high_critical_rate": 0.907563025210084,
+        "critical_rate": 0.5378151260504201,
+        "mean_attack_probability": 0.6332147717475891,
+        "mean_anomaly_score": 0.8732741475105286,
+        "mean_uncertainty": 0.6189976258256237
+    },
+    "risk_formula": "100 * (0.40*A + 0.35*O + 0.25*U)",
+    "note": "U2R is evaluated separately and was not used to fit the risk formula."
+}

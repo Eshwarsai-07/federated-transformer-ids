@@ -1,0 +1,80 @@
+{
+    "summary": {
+        "model": "Federated_FT_Transformer",
+        "accuracy": 0.8045,
+        "macro_precision": 0.831,
+        "macro_recall": 0.7328,
+        "macro_f1": 0.7434,
+        "false_positive_rate": 0.0457,
+        "latency_ms_per_1k_flows": 51.696,
+        "per_class_recall": {
+            "Normal": 0.9543,
+            "DoS": 0.7655,
+            "Probe": 0.8406,
+            "R2L": 0.3709
+        },
+        "comm_mb_per_round": 6.492
+    },
+    "round_history": [
+        {
+            "round": 1,
+            "val_macro_f1": 0.1328
+        },
+        {
+            "round": 2,
+            "val_macro_f1": 0.7694
+        },
+        {
+            "round": 3,
+            "val_macro_f1": 0.8153
+        },
+        {
+            "round": 4,
+            "val_macro_f1": 0.8253
+        },
+        {
+            "round": 5,
+            "val_macro_f1": 0.828
+        },
+        {
+            "round": 6,
+            "val_macro_f1": 0.8319
+        },
+        {
+            "round": 7,
+            "val_macro_f1": 0.8236
+        },
+        {
+            "round": 8,
+            "val_macro_f1": 0.8268
+        },
+        {
+            "round": 9,
+            "val_macro_f1": 0.8207
+        },
+        {
+            "round": 10,
+            "val_macro_f1": 0.8239
+        },
+        {
+            "round": 11,
+            "val_macro_f1": 0.8395
+        },
+        {
+            "round": 12,
+            "val_macro_f1": 0.8422
+        },
+        {
+            "round": 13,
+            "val_macro_f1": 0.8427
+        },
+        {
+            "round": 14,
+            "val_macro_f1": 0.8394
+        },
+        {
+            "round": 15,
+            "val_macro_f1": 0.8394
+        }
+    ]
+}

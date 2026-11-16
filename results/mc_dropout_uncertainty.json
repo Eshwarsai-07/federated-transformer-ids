@@ -1,0 +1,14 @@
+{
+    "method": "Monte Carlo Dropout",
+    "passes": 20,
+    "uncertainty_threshold": 0.8817569017410278,
+    "validation_samples": 18889,
+    "test_samples": 22477,
+    "test_uncertain_samples": 2363,
+    "test_uncertain_rate": 0.10512968812563954,
+    "test_mean_confidence": 0.8125892281532288,
+    "test_mean_predictive_entropy": 0.5452115535736084,
+    "test_mean_expected_entropy": 0.5099940896034241,
+    "test_mean_mutual_information": 0.035217490047216415,
+    "validation_mean_predictive_entropy": 0.4523982107639313
+}

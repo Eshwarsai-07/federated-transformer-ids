@@ -1,0 +1,22 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+credentials.json
+token.json
+*.pem
+*.key
+
+# Temporary files
+*.log

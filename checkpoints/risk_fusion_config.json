@@ -1,0 +1,11 @@
+{
+    "ood_threshold": 2.7407679557800293,
+    "anom_min": -0.026475727558135986,
+    "anom_max": 3.175297737121582,
+    "class_names": [
+        "Normal",
+        "DoS",
+        "Probe",
+        "R2L"
+    ]
+}
